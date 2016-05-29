@@ -1,3 +1,4 @@
+// is this going to heroku?
 var mongoose = require("mongoose");
 mongoose.connect( process.env.MONGODB_URI ||
                   process.env.MONGOHQ_URL || 
